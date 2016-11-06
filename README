@@ -1,0 +1,9 @@
+Usage:
+
+In terminal do:
+  pip install scrapy
+  scrapy runspider scrape_part1.py > urls 
+  scrapy runspider scrape_part2.py > output.csv
+
+
+Then, open in excel
