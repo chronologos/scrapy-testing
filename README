@@ -2,8 +2,8 @@ Usage:
 
 In terminal do:
   pip install scrapy
-  scrapy runspider scrape_part1.py > urls 
-  scrapy runspider scrape_part2.py > output.csv
-
+  python3 UrlGenerator.py
+  scrapy runspider NumPagesSpider -o urls_expanded.json
+  scrapy runspider DirectorySpider.py > output.csv
 
 Then, open in excel
